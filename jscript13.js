@@ -18,12 +18,12 @@ isTrue ? console.log("True") : console.log("The boolean is falsy");
 
 const isNull = null;
 
-isNull ? console.log("The null value is falsy"): console.log("Error");
+isNull ? console.log("Error"): console.log("The null value is falsy");
 
 
-const isFasly = false;
+const isFalsy = false;
 
-isFalsy ? console.log("The boolean value is falsy") : console.log("It can't be true");
+isFalsy ? console.log("It can't be true") : console.log("The boolean value is falsy");
 
 const isZero = 0;
 
@@ -34,7 +34,7 @@ const undef = undefined;
 if (undef !== "String") {
     console.log("Undefined is falsy");
 } else {
-    console.log("IT must be a string");
+    console.log("It must be a string");
 }
 
 const emptyq = "";
@@ -127,52 +127,92 @@ const numE = 5;
 const numF = 6;
 
 if (numE >= 5 && numF >= 5) {
-    console.log("true");
+    console.log(true);
 } else {
-    console.log("false");
+    console.log(false);
 }
 
 const numG = 10;
 const numH = 11;
 
 if (numG >= 5 && numH >= 5) {
-    console.log("true");
+    console.log(true);
 } else {
-    console.log("false");
+    console.log(false);
 }
 
 const numI = 0;
 const numJ = 0;
 
 if (numI >= 5 && numJ >= 5) {
-    console.log("true");
+    console.log(true);
 } else {
-    console.log("false");
+    console.log(false);
 }
 
 const numK = 1000;
 const numL = -1000;
 
 if (numK >= 5 && numL >= 5) {
-    console.log("true");
+    console.log(true);
 } else {
-    console.log("false");
+    console.log(false);
 }
 
 const numM = 6;
 const numN = 4;
 
 if (numM >= 5 && numN >= 5) {
-    console.log("true");
+    console.log(true);
 } else {
-    console.log("false");
+    console.log(false);
 }
 
 const numO = 5;
 const numP = 5;
 
 if (numO >= 5 && numP >= 5) {
-    console.log("true");
+    console.log(true);
 } else {
-    console.log("false");
+    console.log(false);
+}
+
+
+/*Pair and Compare
+Using if/else statements and strict equality operators, create a JavaScript code that compares two sets of two values. Console log true if at least one of the pairs is truthy.*/ 
+
+if ("cat" === "cat" || 6 === "6") {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+if ("five" === 5 || "dog" === "dawg") {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+if (0 === false || "horse" === "horse") {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+if ("eight" === "eight" || "ate" === "ate") {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+if (11 === "eleven" || "four" === "for") {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+if ("cake" === "cake" || "pie" === "pie") {
+    console.log(true);
+} else {
+    console.log(false);
 }
